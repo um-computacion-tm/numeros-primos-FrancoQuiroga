@@ -1,6 +1,6 @@
 import unittest
 import random
-"Miller-Rabin prime function, FUNCIONAAAA"
+"Miller-Rabin prime function"
 def is_prime(numero):
     if numero < 4:
         return True
@@ -16,23 +16,9 @@ def is_prime(numero):
             es_primo = True
             
     return es_primo
-"Prime Function that only works up to 90"
-#def is_prime(numero):
-#    numerocheck = 9
-#    result = False
-#    if 0 < numero < 4:
-#        result = True
-#        return result
-#    while numerocheck > 0:
-#        divisioncheck = numero % numerocheck
-#        if (numero % 2) == 0:
-#            return False
-#        if divisioncheck == 0:
-#            result = False
-#        else:
-#            return True
-#        numerocheck = numerocheck - 1
-#    return result
+
+
+
 class Testnumprimo(unittest.TestCase):
     def test_num1(self):
         resultado = is_prime(1)
