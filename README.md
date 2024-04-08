@@ -1,4 +1,6 @@
-# Github: FrancoQuiroga
+# Quiroga Abraham, Franco Enzo
+Github: FrancoQuiroga
+
 
 # What does this do?
 ##  The is_prime function takes a number(Integer) as an input and outputs True/False.

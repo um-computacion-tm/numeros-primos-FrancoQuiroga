@@ -4,13 +4,14 @@ import random
 def is_prime(numero):
     if numero < 4:
         return True
+    if numero % 2 == 0:
+        return False
     es_primo = False
     cantdepruebas = 20
     for i in range(cantdepruebas):
         randomnum = random.randint(1,numero-1)
         if (randomnum ** (numero-1) % numero) != 1 % numero:
             es_primo = False
-            return es_primo
         else:
             es_primo = True
             
